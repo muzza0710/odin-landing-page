@@ -73,6 +73,20 @@ h1 {
     border-radius: 12px;
 }
 
+#quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 0 10rem;
+}
+
+#quote .source {
+    font-weight: 900;
+    text-align: end;
+    font-size: 28px;
+}
+
 .item {
     width: 100px;
     flex: 0 0 auto;
