@@ -10,6 +10,13 @@ a {
     text-decoration: none;
 }
 
+button {
+    background-color: #3882f6;
+    border-radius: 4px;
+    color: #f9faf8;
+    padding: .5rem 2rem;
+}
+
 ul {
     list-style: none;
     padding-inline-start: 0;
@@ -30,8 +37,11 @@ h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+}
+
+h1, h3 {
     padding: 0;
-    margin: 0%;
+    margin: 0;
 }
 
 #hero {
@@ -47,10 +57,7 @@ h1 {
 }
 
 .hero button {
-    background-color: #3882f6;
     border-style: none;
-    border-radius: 4px;
-    color: #f9faf8;
 }
 
 #info h2 {
@@ -86,6 +93,30 @@ h1 {
     text-align: end;
     font-size: 28px;
 }
+
+#action {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    margin: 10rem;
+    align-items: center;
+    padding: 3rem 3rem;
+    justify-content: space-around;
+
+}
+
+#action button {
+    flex: 0 0 auto;
+    border: 2px solid #f9faf8;
+    flex-grow: 0;
+}
+
+#action p {
+    padding: 0;
+    margin: 0;
+}
+
 
 .item {
     width: 100px;
