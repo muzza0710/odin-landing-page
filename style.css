@@ -17,6 +17,14 @@ button {
     padding: .5rem 2rem;
 }
 
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 1rem;
+    font-size: 18px;
+    color: #e5e7e5;
+}
+
 ul {
     list-style: none;
     padding-inline-start: 0;
@@ -60,15 +68,9 @@ h1, h3 {
     border-style: none;
 }
 
-#info h2 {
+#info {
     text-align: center;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
+    padding-bottom: 3rem;
 }
 
 #info .image {
@@ -117,6 +119,12 @@ h1, h3 {
     margin: 0;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
 
 .item {
     width: 100px;
